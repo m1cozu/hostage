@@ -1,6 +1,7 @@
 import os
 import requests
 import time
+import webbrowser
 
 # Define color class for formatting
 class Fuckcolors:
@@ -104,6 +105,17 @@ def ip_lookup(ip):
     {Fuckcolors.red}[INFO]{Fuckcolors.reset} AS         : {as_host}
     """
     Slow(result_text)
+
+    # Ask user if they want to view the location on Google Maps
+    if latitude != 'None' and longitude != 'None':
+        open_maps = input(f"\n{current_time_hour()} Open location on Google Maps? (Press Enter to open) -> ")
+        if open_maps == '':
+            maps_url = f"https://www.google.com/maps?q={latitude},{longitude}"
+            webbrowser.open(maps_url)
+            Slow(f"Opening Google Maps for the location...")
+
+    # Return to the main menu
+    input(f"\n{current_time_hour()} Press Enter to return to the main menu...")
 
 def main():
     Title("IP Lookup")

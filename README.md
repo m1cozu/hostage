@@ -1,6 +1,23 @@
-# Hostage
+### How to Install and Use Hostage.py
 
-## Hostage.py Multitool
+1. **Download the ZIP File**:  
+   Download the Hostage.py multitool ZIP file from the official source.
+
+2. **Extract the ZIP**:  
+   Extract the contents of the ZIP file to a location of your choice.
+
+3. **Run Setup**:  
+   Navigate to the extracted folder and run `setup.bat` to install necessary dependencies and set up the multitool environment.
+
+4. **Start the Tool**:  
+   Once setup is complete, run `start.bat` to launch the multitool.
+
+5. **Enjoy**:  
+   You are now ready to use the Hostage.py multitool! Enjoy the powerful features designed for legitimate and educational use.
+
+---
+
+### Hostage.py Multitool
 
 This multitool was created by **micozu** for educational and legitimate use only. By using this tool, you agree to adhere to the following terms and conditions:
 

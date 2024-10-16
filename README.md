@@ -1,4 +1,5 @@
 https://dsc.gg/hostagetool
+![Näyttökuva 2024-10-16 231544](https://github.com/user-attachments/assets/56a74d5f-2bbd-4d28-94bc-3c69fa01b07b)
 
 ### How to Install and Use Hostage.py
 
